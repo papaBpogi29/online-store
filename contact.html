@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Your Online Store - Get in touch and place orders">
+    <title>Contact Us - Your Online Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Store</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Get in touch for orders and inquiries.</p>
+        </div>
+    </section>
+
+    <main>
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2>Get In Touch</h2>
+                        <p>Have questions about our products or want to place an order? Reach out to us using any of the following methods:</p>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email Us</h3>
+                                <p><a href="mailto:contact@yourstore.com">contact@yourstore.com</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>Call Us</h3>
+                                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <i class="fas fa-comment-dots"></i>
+                            <div>
+                                <h3>Direct Message</h3>
+                                <div class="direct-message-options">
+                                    <a href="https://m.me/yourstorepage" class="dm-link">
+                                        <i class="fab fa-facebook-messenger"></i> Messenger
+                                    </a>
+                                    <a href="https://wa.me/1234567890" class="dm-link">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp
+                                    </a>
+                                    <a href="https://t.me/yourstore" class="dm-link">
+                                        <i class="fab fa-telegram"></i> Telegram
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h3>Business Hours</h3>
+                                <p>Monday - Friday: 9AM - 5PM</p>
+                                <p>Saturday: 10AM - 2PM</p>
+                                <p>Sunday: Closed</p>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h3>Connect With Us</h3>
+                            <p>Follow us on social media for updates, promotions, and more!</p>
+                            <div class="contact-social-links">
+                                <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i> Facebook</a>
+                                <a href="#" class="social-btn"><i class="fab fa-instagram"></i> Instagram</a>
+                                <a href="#" class="social-btn"><i class="fab fa-twitter"></i> Twitter</a>
+                                <a href="#" class="social-btn"><i class="fab fa-tiktok"></i> TikTok</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-container">
+                        <h2>Send Us a Message</h2>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject">
+                                    <option value="inquiry">Product Inquiry</option>
+                                    <option value="order">Place an Order</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Order Call to Action -->
+                <div class="order-cta">
+                    <h2>Ready to Order?</h2>
+                    <p>We make ordering easy! Choose the method that works best for you:</p>
+                    
+                    <div class="order-options">
+                        <div class="order-option">
+                            <i class="fas fa-shopping-cart"></i>
+                            <h3>Direct Order</h3>
+                            <p>Send us your order details directly through the contact form above.</p>
+                            <a href="#contactForm" class="btn">Order Now</a>
+                        </div>
+                        
+                        <div class="order-option">
+                            <i class="fas fa-comment-alt"></i>
+                            <h3>Message Us</h3>
+                            <p>Send us a direct message on any of our social media platforms.</p>
+                            <div class="sm-buttons">
+                                <a href="#" class="sm-btn"><i class="fab fa-facebook-messenger"></i></a>
+                                <a href="#" class="sm-btn"><i class="fab fa-whatsapp"></i></a>
+                                <a href="#" class="sm-btn"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        
+                        <div class="order-option">
+                            <i class="fas fa-phone"></i>
+                            <h3>Call Us</h3>
+                            <p>Give us a call during business hours to place your order directly.</p>
+                            <a href="tel:+1234567890" class="btn">Call Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Your Store</h3>
+                    <p>Quality products for every need.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Your Online Store. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+
